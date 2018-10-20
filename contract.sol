@@ -1,5 +1,5 @@
 pragma solidity ^0.4.0;
-contract HelthChain {
+contract HealthChain {
     
     address owner;
     
@@ -12,7 +12,7 @@ contract HelthChain {
     uint256 count_sell;
     
     
-    function HelthChain (string _name_type) public {
+    function HealthChain (string _name_type) public {
         owner = msg.sender;
         name_type = _name_type;  
     }    
